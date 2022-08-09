@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP address</title>
+<style>
+h1 { 
+	color: #04AA6D; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 35px; font-weight: bold; 
+	text-transform: capitalize;
+}
+#tableip {
+display: flex; 
+  flex-direction:  column-reverse;
+}
+#myTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  
+}
+
+#myTable td, #myTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+ 
+}
+
+#myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <h1 id="ipcount"></h1>
+	<div id="tableip">
+		<table id="myTable">
+			<th>IP Network ID</th>
+			<th>Mask / CIDR</th>
+		</table>
+	</div>
+      <script src="main.js"></script>
+</body>
+</html>
